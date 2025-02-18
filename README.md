@@ -24,8 +24,8 @@ PE file analysis tools (optional: Get-PEHeaders module)
 
 Clone the Repository
 
-git clone https://github.com/yourusername/AutoYaraGen.git
-cd AutoYaraGen
+git clone <thisGitRepoURL>
+cd <thisGitRepo>
 
 Usage
 
@@ -33,7 +33,7 @@ Basic YARA Rule Generation
 
 Run the script and provide a binary file:
 
-.\AutoYaraGen.ps1 -FilePath "C:\malware\sample.exe" -RuleName "Malware_Sample"
+.\PowerYARA.ps1 -FilePath "C:\malware\sample.exe" -RuleName "Malware_Sample"
 
 Example Output (Generated YARA Rule)
 
